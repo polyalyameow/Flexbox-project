@@ -1,3 +1,4 @@
+/*SQUARES */
 
 .main__squares{
     height: 100vh;
@@ -9,9 +10,10 @@
    
 }
 
+/*CONTAINER FOR CONTAINERS*/
 .squares{
     width: 1152px;
-    border: solid 2px green;
+    /*border: solid 2px green;*/
     display: flex;
     align-content: center;
     justify-content: center;
@@ -21,17 +23,15 @@
 
 
 .container{
-    
     flex-basis: 40%;
     height: 160px;
-    
     background: #F48C06;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;    
     
 }
 
-
+/*PROPERTIES FOR SQUARES*/
 .container__square{
     min-width: 78px;
     min-height: 78px;
@@ -91,7 +91,7 @@
 }
 
 .container__fifth:nth-of-type(2){
-    align-self: center;;
+    align-self: center;
 }
 
 .container__fifth__text{
@@ -127,12 +127,12 @@
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    border: 3px solid pink;
+    /*border: 3px solid pink;*/
 }
 
 .circles{
-    width: 53.5%;
-    border: solid 2px green;
+    width: 49%;
+    /*border: solid 2px green;*/
     display: flex;
     align-content: center;
     justify-content: flex-start;
@@ -141,8 +141,9 @@
 
 }
 
+/*CONTAINER FOR CIRCLES*/
 .box{
-    border: 2px solid purple;
+    /*border: 2px solid purple;*/
     width: 273px;
     height: 220px;
     background: #03071E;
@@ -156,12 +157,15 @@
     background: #6A040F;
 }
 
+/*PROPERTIES FOR EACH CIRCLE*/
 .box__circle{
     width: 50px;
     height: 50px;
     background: #748CAB;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
+    
+    
 }
 
 .box__first{
@@ -170,8 +174,9 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-start;
-    padding: 10px;
     gap: 10px;
+    padding: 10px;
+
 }
 
 .box__second{
