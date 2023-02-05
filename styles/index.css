@@ -1,0 +1,116 @@
+
+body {
+    height: 100vh;
+    background-color: #370617; 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+   
+}
+
+.squares{
+    width: 1152px;
+    border: solid 2px green;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 20px 20px;
+}
+
+
+.container{
+    
+    flex-basis: 40%;
+    height: 160px;
+    
+    background: #F48C06;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;    
+    
+}
+
+
+.container__square{
+    min-width: 78px;
+    min-height: 78px;
+    background: #9D0208;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.container__first{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+   
+}
+
+.container__second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+
+    
+}
+
+.container__third{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container__third:last-of-type{
+    margin-right: 20px;
+}
+
+.container__fourth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container__fourth:last-of-type{
+    margin-right: 20px;
+    align-self: flex-end;
+}
+
+.container__fifth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.container__fifth:nth-of-type(2){
+    align-self: center;;
+}
+
+.container__fifth__text{
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    align-self: center;
+}
+
+.container__sixth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__sixth:nth-of-type(2){
+    flex-grow: 0.6;
+}
