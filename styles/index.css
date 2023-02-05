@@ -1,5 +1,5 @@
 
-body {
+.main__squares{
     height: 100vh;
     background-color: #370617; 
     display: flex;
